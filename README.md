@@ -6,4 +6,8 @@ I decided to work through Zed Shaw's book, and so far it's pretty cool.
 
 Oh, and going to brush up on how mark-up language (I think that's what it's referred to).
 
-__sidebar:__ This is playing while I code: https://youtu.be/0_RnlOWmZD4
+
+
+
+
+__Sidebar:__ This is playing while I code: https://youtu.be/0_RnlOWmZD4
