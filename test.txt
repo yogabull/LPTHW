@@ -1,0 +1,4 @@
+test.txt....
+lpthw $ ls
+test.txt
+lpthw$
