@@ -1,4 +1,4 @@
-# LPTHW
+# Learning Python the Hard Way
 Exercises from the book _Learn Python the Hard Way_ by __Zed Shaw__.
 
 Goal is to get better at Git while learning Python.
