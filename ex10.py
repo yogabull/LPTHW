@@ -44,15 +44,25 @@ print(fat_cat)
 #here's a start:
 print ('''
 Here is a list of Escapte Sequences:
-\\\\    Backslash (\\)
-\\'     Single-quote(\')
-\\"     Double-quote (\")
-\\a     ASCII bell (BEL)
-\\b     ASCII backspace (BS)
-\\f     ASCII formfeed (FF)
-\\n     ASCII linefeed (LF)
+\\\\        Backslash (\\)
+\\'         Single-quote(\')
+\\"         Double-quote (\")
+\\a         ASCII bell (BEL)
+\\b         ASCII backspace (BS)
+\\f         ASCII formfeed (FF)
+\\n         ASCII linefeed (LF)
+\\N{name}   Character named name in the Unicode database (Unicode only)
+\\r         Carriage return (CR)
+\\t         Horizontal tab (TAB)
+\\Uxxxx     Chracter with 16-bit hex value xxxx
+\\Uxxxxxxx  Character with 32-bit hex value xxxxxxxx
+\\v         ASCII vertical tab (VT)
+\\000        Character with octal value 000
+\\xhh        Character with hex value hh
+    ''')
 
+# the (\a) makes an alert (bell) sound. Not sure what \b does, but \f adds a line space.
+print("here is a test: \a \b \f")
 
-
-
-''')
+# Not sure what this does: \N{name}
+print("here is a second test: \n \r \t Let\'s see the test")
