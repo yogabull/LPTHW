@@ -15,4 +15,6 @@ name = input('What is your name? ')
 
 print('\n{} is running the script called'.format(name), script, '\n')
 
-#NOTE: the (.format) needs to come right after the sentence. Each element called needs separation by a comma. 
+#NOTE: the (.format) needs to come right after the sentence. Each element called needs separation by a comma.
+
+# this push will be made with a comment after typing git push
