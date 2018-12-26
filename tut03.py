@@ -3,7 +3,7 @@
 #creating a new dictionary
 d = {}
 # another way to write the above: d = dict()
-
+dict = dict()
 #We are adding this info to the dictionary:
 # d = {'George': 24, 'Tom': 32}
 
@@ -19,21 +19,17 @@ d['Jenny'] = 20
 print ('Jenny\'s new age is:')
 print (d['Jenny'])
 
-print ()
-
 #Values can be any 'type'
 #Keys can only be certain types: most commonly strings and numbers
 
-# how to interate over key-value pairs in a dictionary?
-
+# how to iterate over key-value pairs in a dictionary?
+print('This next code iterates through the dictionary.')
 for key, value in d.items():
-    print ('key: \r')
-    print (key)
-    print ('value: \r')
-    print (value)
+    print ('key:', key)
+    print ('value:', value)
     print ('\f')
 
-print ('\a') #introduces a space and a bell/alarm
+# print ('\a') #introduces a space and a bell/alarm
 
 #Escpae Sequnce test:
 # The carraige return escape sequence moves the cursor to the line's beginning..
