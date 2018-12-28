@@ -1,3 +1,3 @@
-This is stuff I typed into a file.
-It is rally cool stuff.
-Lots and lots of fun to have in here.
+Here is another go at redacting this file.
+It's the test.txt file.
+and I rather enjoy seeing it work.
