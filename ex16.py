@@ -8,6 +8,23 @@ print("If you do want that, hit RETURN")
 input("?")
 
 print("Opening the file ...")
+
+"""Here are notes on the OPEN fuction argument modes:
+
+The OPEN function has argument modes.
+r   Open text file for reading. Stream positioned at file's beginning.
+r+  Open for reading and writing. Stream position file beginning..
+w   Truncate file to zero length or create file for writing.  Stream beginning..
+w+  Open for reading and writing. File created if it doesn't exist.
+    Otherwise it is truncated. Stream position file beginning.
+a   Open for writing. File created if it doesn't exist.
+    Stream positioned at end of file.
+a+  Open for reading/writing. Create file if it doesn't exist.
+    Subsequent writes end at the then current end of file.
+
+"""
+
+#The 'w' allows for the file to be overwritten.
 target = open(filename, 'w')
 
 print("Truncating the file. Goodbye!")
