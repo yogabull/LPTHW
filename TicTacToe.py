@@ -3,33 +3,27 @@
 def addition(x, y):
     return x + y
 
-z = (addition(5,3))
-print(z)
-
-
-game = [[0, 0, 0],
+game = [[0, 0, 0], #here is a list of three lists.
         [0, 0, 0],
         [0, 0, 0],]
 
-game[0][1] = 1 # print (game) # print (type(game))
-
 # functions are lower-case and use underscores to be pep8 compliant. # Class get title-case.
-def game_board():
+# defines function: game_board
+def game_board(player=0, row=0, column=0, just_display=False): #defaults to zero.
     print("\n   a  b  c")
+    if not just_display:
+        game[row][column] = player # this designates a cell and changes it to the player's number.
     for count, row in enumerate(game):
         print(count, row)
 
+game_board(just_display=True) # this changes just_display to true so pass the if-not statement above
+game_board(player=1, row=2, column=1)
 
 
-
-
-
-# x = game_board this is a way to call the game_board function quickly.
+# game[0][1] = 1 # print (game) # print (type(game))
 
 # game_board() #calling the function.
-#         #Just writing game_board just points to function and does not run it.
-
-game[0][1] = 1 # this places a one in a cell.
+#         #Just writing game_board points to function and does not run it.
 
 
 
@@ -49,8 +43,4 @@ print (l)
 '''
 
 '''reproducing this code by making a function so display game-map after each move.
-#repetition means use a function.
-print("\n   a  b  c")
-for count, row in enumerate(game):
-    print(count, row)
 '''
