@@ -1,0 +1,38 @@
+Notes: Python
+
+Mutable vs non-mutable (from Sendtex video)
+  Objects are not mutable,
+  but you can modify the values within an object.
+  ie:
+    TicTacToe-02.py exercise
+
+  reference:
+  https://www.youtube.com/watch?v=xwPWcFKeIac&index=8&list=PLQVvvaa0QuDeAams7fkdcwOGBpGdHpXln
+
+
+FUNCTION: global
+  Sets an object to modifiable anywhere in code (inside and outside functions).
+  ie:
+    global game
+
+
+Boolean
+Here are True / False examples and how these are handled:
+    ie:
+          >>> not True
+          False
+
+          >>> not False
+          True
+
+          >>> False and True
+          False
+
+          >>> not (False and True)
+          True
+
+          >>> False or True
+          True
+
+          >>> not (False or True)
+          False
