@@ -1,13 +1,10 @@
-game = [1, 2, 3]
-print(id(game))
+game = 'I want to play a game'
+print(id(game), game)
 
 def game_board(player=0, row=0, column=0, just_display=False):
-    print(game)
-    # game = 'a game'
-    game[1] = 99
-    # print(id(game))
-    print(game)
+    global game
+    game = "A game"
+    print(id(game), game, '\n')
 
 game_board()
-print(game)
-print(id(game))
+print(game, id(game))
