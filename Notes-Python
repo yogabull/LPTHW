@@ -36,3 +36,6 @@ Here are True / False examples and how these are handled:
 
           >>> not (False or True)
           False
+
+Error Handling
+  look into 'try' and 'except'
