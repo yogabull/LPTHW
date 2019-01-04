@@ -1,5 +1,5 @@
 #Exerciase 15: Reading files
-print('Exercise 15: Reading files.\nMoving to the next line is an escape sequence\n')
+print('Exercise 15: Reading files')
 #sys is a package.
 #the statement below says get the 'argv' feature from the 'sys' package.
 from sys import argv
@@ -14,7 +14,7 @@ print(txt.read())
 print(' ')
 
 print("Type the filename again:")
-file_again = input("> ")
+file_again = input()
 
 print('Here is the test text file retrieved from a user input:')
 txt_again = open(file_again)
