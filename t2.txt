@@ -1,0 +1,1 @@
+Here is another text file writtin by using 'nano' within the terminal.
