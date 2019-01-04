@@ -39,3 +39,18 @@ Here are True / False examples and how these are handled:
 
 Error Handling
   look into 'try' and 'except'
+
+
+PY TEST
+Installing py.test and how to run it.
+  Install with this:
+      python3.7 -m pip install pytest
+
+  I got an old version error and used this code to update:
+      python3.7 -m pip install --upgrade pip
+
+  Here's how you run py.test:
+      py.test <file> #enter file to test here <file>
+      py.test ex17.py
+
+      
