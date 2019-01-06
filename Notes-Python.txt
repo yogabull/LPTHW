@@ -53,4 +53,22 @@ Installing py.test and how to run it.
       py.test <file> #enter file to test here <file>
       py.test ex17.py
 
-      
+
+FUNCTIONS AND MODULES
+  A collection of related functions makes up a module.
+  Functions are inside modules which are inside the standard library.
+  Module examples:
+    json
+    enum
+    random
+    datetime
+    sys
+    time
+    os
+      included functions:   getcwd, chmod, mkdir
+
+  Code:
+  import sys    # Importing needed module
+  sys.platform  # Accessing attribute of interest
+  print(sys.version)
+  
