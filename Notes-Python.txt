@@ -71,4 +71,19 @@ FUNCTIONS AND MODULES
   import sys    # Importing needed module
   sys.platform  # Accessing attribute of interest
   print(sys.version)
-  
+
+MODULE AND SUBMODULE
+Invoking built-in module functionality - this chapter is sahweeet!
+  from datetime import datetime
+    #first datetime is the module. The second is a submodule with the same name.
+
+  right_this_minute = datetime.today().minute
+    # you can tell 'today' is being invoked because of the postfix parenthesis: ()
+    # this returns a 'time object'
+    # the dot-notation syntax (.minute) accesses the time's minute attribute.
+    page 14
+
+    datetime.today().minute
+        here datetime is the submodule
+        .today() is the method
+        .minute is the method's attribute
