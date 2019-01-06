@@ -95,3 +95,13 @@ TIME MODULE
 RANDOM MODULE
   Has function called randint
     this enters a random integer.
+
+DISCOVER MODULE FUNCTIONS
+  Use this code to discover how a module's function works:
+    import random # this imports the random module.
+    dir (random) # this generates a list of functions within the random module.
+    help (random.randint) # this displays instructions about the randint function.
+
+
+SHELL INTERACTIVE FUNCTIONS
+  The shell provides two interactive functions that work at the >>> prompt. The dir function lists an object’s attributes, whereas help provides access to the Python docs.
