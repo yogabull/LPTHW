@@ -5,13 +5,14 @@ from random import randint
 odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59]
 
 for num in range(5):
-    delay = randint
+    delay = randint(1, 5)
+    print(delay, "seconds")
     sleep(delay)
     right_this_minute = datetime.today().minute #this invokes method 'today' from submodule datetime
     if right_this_minute in odds:
         print("This minute seems to be a little odd.")
     else:
-        print("Not an odd miunute")
+        print("Not an odd minute")
     #
 #
 # from os import getcwd
