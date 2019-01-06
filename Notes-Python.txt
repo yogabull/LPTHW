@@ -87,3 +87,11 @@ Invoking built-in module functionality - this chapter is sahweeet!
         here datetime is the submodule
         .today() is the method
         .minute is the method's attribute
+
+TIME MODULE
+  Has function called sleep
+    puases execution for a a period of seconds
+
+RANDOM MODULE
+  Has function called randint
+    this enters a random integer.
