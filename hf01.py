@@ -1,14 +1,17 @@
-from datetime import datetime #first datetime is the module. The second is a submodule with the same name.
-from time import sleep
-from random import randint
+# from datetime import datetime #first datetime is the module. The second is a submodule with the same name.
+import datetime
+
+# from time import sleep #this imports the sleep function from the time module.
+import time #this imports the time module so you can use any contained function.
+# from random import randint
+import random
 
 odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59]
 
 for num in range(5):
-    delay = randint(1, 5)
-    print(delay, "seconds")
-    sleep(delay)
-    right_this_minute = datetime.today().minute #this invokes method 'today' from submodule datetime
+    delay = random.randint(1, 5)
+    time.sleep(delay)
+    right_this_minute = datetime.datetime.today().minute #this invokes method 'today' from submodule datetime
     if right_this_minute in odds:
         print("This minute seems to be a little odd.")
     else:
